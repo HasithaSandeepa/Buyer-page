@@ -1,0 +1,117 @@
+/* =============================navigation start============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+.nav {
+    background-color: rgb(49, 46, 46);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    overflow: hidden;
+    width: 80px;
+    height: 50px;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
+}
+
+/* =============================navigation end============================= */
+
+
+/* =============================center part start============================= */
+
+.profile {
+    width: 40px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10%;
+}
+
+.content li {
+    display: inline;
+    padding: 20px;
+
+}
+
+.content li a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+}
+
+.user {
+    margin-top: 2%;
+    height: 40px;
+    /* border: 2px solid rgb(26, 218, 26); */
+}
+
+.whback {
+    margin: 5%;
+    padding: 10px;
+    background-color: white;
+}
+
+.inline {
+    height: 10%;
+    display: flex;
+    margin-top: 1%;
+}
+
+.tile {
+    padding: 30px;
+    width: 20%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+}
+
+.tile p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tile_img {
+    width: 20%;
+    margin-left: 40%;
+    overflow: hidden;
+}
+
+
+/* =============================center part end============================= */
